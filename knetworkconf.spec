@@ -11,7 +11,7 @@ Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}%{_rc}.tar.bz2
 # Source0-md5:	56f37d2c72fdab200a5249f2d482e394
 URL:		http://knetworkconf.sourceforge.net/
-BuildRequires:	kdelibs >= 8:3.1
+BuildRequires:	kdelibs-devel >= 8:3.1
 BuildRequires:	sed >= 4.0
 Requires:	kdebase-core
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
