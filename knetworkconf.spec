@@ -66,7 +66,7 @@ mv $RPM_BUILD_ROOT%{_libdir}/kde3/Configuration/KDE/Network/%{name}.desktop \
 sed -i 's/locolor\/32x32\/apps\///' \
 	$RPM_BUILD_ROOT%{_desktopdir}/%{name}.desktop
 
-echo "Categories=Qt;KDE;SystemSetup" >> \
+echo "Categories=Qt;KDE;SystemSetup;" >> \
 	$RPM_BUILD_ROOT%{_desktopdir}/%{name}.desktop
 
 mv $RPM_BUILD_ROOT{%{_iconsdir},%{_pixmapsdir}}/network_card.png
