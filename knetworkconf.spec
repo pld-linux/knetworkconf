@@ -1,16 +1,15 @@
-
-%define		_rc	beta1
-
 Summary:	KDE network configuration tool
 Summary(pl):	Narzêdzie do konfiguracji sieci dla KDE
 Name:		knetworkconf
-Version:	0.5
-Release:	0.%{_rc}.1
+Version:	0.6.1
+Release:	0.1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}%{_rc}.tar.bz2
-# Source0-md5:	56f37d2c72fdab200a5249f2d482e394
+Source0:	http://dl.sourceforge.net/knetworkconf/%{name}-%{version}.tar.bz2
+# Source0-md5:	b2b68c8e16122eb442643aa246daa988
 URL:		http://knetworkconf.sourceforge.net/
+Patch0:		%{name}-ac.patch
+Patch1:		%{name}-am.patch
 BuildRequires:	kdelibs-devel >= 8:3.1
 BuildRequires:	sed >= 4.0
 Requires:	kdebase-core
@@ -40,7 +39,9 @@ maszynie linuksowej. Mo¿liwo¶ci:
 Obs³uguje tak¿e PLD.
 
 %prep
-%setup -q -n %{name}-%{version}%{_rc}
+%setup -q
+%patch0 -p1
+%patch1 -p1
 
 %build
 sed -i 's/doc //' Makefile.am
