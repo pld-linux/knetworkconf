@@ -1,0 +1,11 @@
+--- knetworkconf-0.6.1/admin/cvs.sh~	2007-02-06 16:46:45.000000000 +0100
++++ knetworkconf-0.6.1/admin/cvs.sh	2007-02-06 16:47:16.000000000 +0100
+@@ -64,7 +64,7 @@
+     echo "*** KDE requires automake 1.6.1 or newer"
+     exit 1
+     ;;
+-  automake*1.6.* | automake*1.7* | automake*1.8* | automake*1.9* ) : ;;
++  automake*1.6.* | automake*1.7* | automake*1.8* | automake*1.9* | automake*1.10* ) : ;;
+   "" )
+     echo "*** AUTOMAKE NOT FOUND!."
+     echo "*** KDE requires automake 1.6.1 or newer"
