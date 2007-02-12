@@ -1,5 +1,5 @@
 Summary:	KDE network configuration tool
-Summary(pl):	Narzêdzie do konfiguracji sieci dla KDE
+Summary(pl.UTF-8):   NarzÄ™dzie do konfiguracji sieci dla KDE
 Name:		knetworkconf
 Version:	0.6.1
 Release:	0.1
@@ -27,16 +27,16 @@ Features:
 
 Supports also PLD.
 
-%description -l pl
-KNetworkConf to aplikacja KDE do konfigurowania ustawieñ TCP/IP na
-maszynie linuksowej. Mo¿liwo¶ci:
-- konfigurowanie urz±dzeñ sieciowych
-- w³±czanie/wy³±czanie urz±dzeñ sieciowych
-- ustawianie domy¶lnej bramki i urz±dzenia sieciowego dla niej
-- ustawianie serwerów DNS, nazw domeny i maszyny
-- edycja pliku /etc/hosts (znanych hostów).
+%description -l pl.UTF-8
+KNetworkConf to aplikacja KDE do konfigurowania ustawieÅ„ TCP/IP na
+maszynie linuksowej. MoÅ¼liwoÅ›ci:
+- konfigurowanie urzÄ…dzeÅ„ sieciowych
+- wÅ‚Ä…czanie/wyÅ‚Ä…czanie urzÄ…dzeÅ„ sieciowych
+- ustawianie domyÅ›lnej bramki i urzÄ…dzenia sieciowego dla niej
+- ustawianie serwerÃ³w DNS, nazw domeny i maszyny
+- edycja pliku /etc/hosts (znanych hostÃ³w).
 
-Obs³uguje tak¿e PLD.
+ObsÅ‚uguje takÅ¼e PLD.
 
 %prep
 %setup -q
