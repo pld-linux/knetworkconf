@@ -1,5 +1,5 @@
 Summary:	KDE network configuration tool
-Summary(pl.UTF-8):   Narzędzie do konfiguracji sieci dla KDE
+Summary(pl.UTF-8):	Narzędzie do konfiguracji sieci dla KDE
 Name:		knetworkconf
 Version:	0.6.1
 Release:	0.1
