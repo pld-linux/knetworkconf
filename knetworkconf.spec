@@ -45,6 +45,7 @@ Obsługuje także PLD.
 
 %build
 sed -i 's/doc //' Makefile.am
+for i in knetworkconf/*.ui.h;do mv $i `basename $i .ui.h`.h;done;
 
 %{__make} -f admin/Makefile.common cvs
 
